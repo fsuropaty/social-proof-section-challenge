@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Frontendmentor.io](https://www.frontendmentor.io/solutions/social-proof-section-using-html-css-BSS48p8Ktw)
+- Live Site URL: [fsuropaty.github.io](https://fsuropaty.github.io/social-proof-section-challenge/)
 
 ## My process
 
