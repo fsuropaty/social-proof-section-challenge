@@ -132,6 +132,7 @@ a {
     background-image: url("./images/bg-pattern-top-desktop.svg"),
       url("./images/bg-pattern-bottom-desktop.svg");
     background-position: top 0vh left 0vw, bottom 0vh right 0vw;
+    background-repeat: no-repeat, no-repeat;
     overflow: hidden;
   }
 
@@ -141,7 +142,8 @@ a {
     align-items: center;
     justify-content: center;
     height: inherit;
-    margin: 0;
+    max-width: 1440px;
+    margin: 0 auto;
   }
   .container {
     display: grid;
@@ -167,6 +169,7 @@ a {
   .title > p {
     text-align: start;
     font-size: 1.2rem;
+    line-height: 1.5rem;
   }
 
   .ratings {
@@ -206,22 +209,25 @@ a {
   .reviews {
     display: flex;
     justify-content: space-between;
+    gap: 1rem;
   }
 
   .review-card {
     padding: 3rem 2rem;
   }
 
+  .review p {
+    line-height: 1.5rem;
+  }
+
   .review-card:nth-child(1) {
     margin-bottom: 2rem;
-    margin-right: 2rem;
   }
   .review-card:nth-child(2) {
-    margin: 1rem 2rem 1rem 0;
+    margin: 1rem 0 1rem 0;
   }
   .review-card:nth-child(3) {
     margin-top: 2rem;
-    margin-right: 0;
   }
 
   .attribution {
